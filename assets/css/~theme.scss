@@ -51,15 +51,15 @@ body {
 
   .blog-title {
     margin: 10px 0 10px 0;
-    font-size: 8rem;
+    font-size: 5rem;
     letter-spacing: -1px;
     text-shadow: var(--cover-title-text-shadow);
   }
 
   .blog-description {
     margin: 0;
-    font-size: rem;
-    line-height: 0.8em;
+    font-size: 2.5rem;
+    line-height: 1.5em;
     font-weight: 400;
     font-family: "Roboto Slab", serif;
     letter-spacing: 0;
@@ -274,7 +274,7 @@ a.fn-item {
   color: var(--sticky-menu-text-color);
 }
 
-/* Footer Icons */
+/* Bottom Icons */
 .icons {
   ol {
     padding-left: 0;
@@ -282,20 +282,5 @@ a.fn-item {
 
   li {
     display: inline-block;
-  }
-}
-
-/* Footer Links */
-.site-footer .links {
-  text-align: center;
-
-  ol {
-    list-style-type: none;
-    list-style-position: inside;
-    padding-left: 0;
-  }
-
-  li {
-    margin-left: unset;
   }
 }
